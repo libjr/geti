@@ -1,7 +1,7 @@
 <?php
 // List of allowed domains
 $allowed_domains = [
-    'https://lax.mhx.mybluehost.me/website_2bb4b188sdsd',
+    'https://lax.mhx.mybluehost.me/website_2bb4b188',
     'anotherexample.com',
     'yetanotherexample.com'
 ];
