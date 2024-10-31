@@ -1,0 +1,20 @@
+<?php
+// List of allowed domains
+$allowed_domains = [
+    'example.com',
+    'anotherexample.com',
+    'yetanotherexample.com'
+];
+
+// Get the current domain
+$current_domain = $_SERVER['HTTP_HOST'];
+
+// Check if the current domain is in the list of allowed domains
+if (!in_array($current_domain, $allowed_domains)) {
+    // If not, exit the script with an error message
+    die('Access denied: This script is not authorized for use on this domain.');
+}
+
+// Your PHP code goes here
+echo "Welcome! This script is authorized for use on this domain.";
+?>
